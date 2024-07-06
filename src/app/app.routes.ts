@@ -6,19 +6,6 @@ export const routes: Routes = [
     path: 'example',
     loadComponent: () => import('./features/example/example.component').then(m => m.ExampleComponent),
   },
-  {
-    path: 'tools',
-    loadComponent: () => import('./features/tools/tools.component').then(m => m.ToolsComponent),
-    children: [
-      {
-        path: 'branch-name-generator', // child route path
-        loadComponent: () =>
-          import('./features/tools/branch-name-generator/branch-name-generator.component').then(
-            m => m.BranchNameGeneratorComponent
-          ), // child route component that the router renders
-      },
-    ],
-  },
   { path: '', redirectTo: '/home', pathMatch: 'full' }, // redirect to `first-component`
   {
     path: '**',

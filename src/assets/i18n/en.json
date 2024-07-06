@@ -4,7 +4,7 @@
       "header": {
         "title": "Angular Template",
         "home": "Home",
-        "tools": "Tools",
+        "example": "Example",
         "language": "Language"
       }
     }
@@ -14,18 +14,8 @@
       "title": "Welcome to the Angular Template",
       "description": "enjoy your stay! You can fork or use this as a starting point for your next project"
     },
-    "tools": {
-      "title": "Strumenti",
-      "description": "Scopri i nostri strumenti",
-      "branch-name-generator": "Generatore di nomi di branch"
-    },
-    "about": {
-      "title": "Chi siamo",
-      "description": "Scopri di più su di noi"
-    },
-    "contact": {
-      "title": "Contatti",
-      "description": "Contattaci per ulteriori informazioni"
+    "example": {
+      "title": "Example"
     }
   },
   "errors": {
