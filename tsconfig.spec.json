@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "types": ["jest", "node"]
+  },
+  "extends": "./tsconfig.json",
+  "include": ["src/**/*.int.ts", "src/**/*.spec.ts", "src/**/*.test.ts", "src/**/*.d.ts"]
+}

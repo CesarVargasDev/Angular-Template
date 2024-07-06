@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg  menu shadow" *transloco="let t; prefix: 'components.layout.header'">
+  <div class="container">
+    <a class="navbar-brand">
+      <img [ngSrc]="'assets/images/angular_logo.png'" alt="logo image" height="50" width="160">
+    </a>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" routerLinkActive="active" aria-current="page" routerLink="/home">
+          {{ t('home') }}</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" routerLinkActive="active" aria-current="page"
+                                routerLink="/tools">{{ t('tools') }}</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown">
+            {{ t('language') }}
+          </a>
+          <ul class="dropdown-menu" *transloco="let t; prefix: 'ENUMS.languages'">
+            <li><a class="dropdown-item user-select-none"
+                   (click)="switchLanguage(Languages.EN)">{{ t('en') }}</a></li>
+            <li><a class="dropdown-item user-select-none"
+                   (click)="switchLanguage(Languages.IT)">{{ t('it') }}</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>

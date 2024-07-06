@@ -1,0 +1,23 @@
+# Directories
+.yarn/
+.docker/
+**/.coverage_artifacts
+**/.coverage_cache
+**/.coverage_contracts
+**/artifacts
+**/cache
+**/coverage
+**/dist
+**/logs
+**/node_modules
+**/types
+
+# Files
+.commitlintrc*
+.stylelintcache
+coverage.json
+npm-debug.log*
+package.json
+package-lock.json
+yarn-debug.log*
+yarn-error.log*

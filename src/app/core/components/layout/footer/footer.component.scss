@@ -1,0 +1,11 @@
+@import "../../../../../assets/styles/abstract/colors";
+@import "../../../../../assets/styles/abstract/mixins";
+
+.footer {
+  background-color: $footer;
+}
+
+// STYLE THE COPYRIGHT  CONTENT
+.footer-bottom {
+  background-color: $black;
+}

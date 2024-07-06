@@ -1,0 +1,24 @@
+@import '../../../assets/styles/abstract/colors';
+@import '../../../assets/styles/abstract/mixins';
+
+.tech-icons {
+  width: 120px;
+  margin: 1rem;
+}
+
+.tech-icons p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.tech-icons svg,
+.tech-icons i {
+  font-size: 3rem;
+}
+
+.intro-section {
+  @include gradient;
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 50%;
+}

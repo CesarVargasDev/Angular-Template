@@ -1,0 +1,51 @@
+{
+  "components": {
+    "layout": {
+      "header": {
+        "title": "Angular Template",
+        "home": "Home",
+        "tools": "Tools",
+        "language": "Language"
+      }
+    }
+  },
+  "features": {
+    "home": {
+      "title": "Welcome to the Angular Template",
+      "description": "enjoy your stay! You can fork or use this as a starting point for your next project"
+    },
+    "tools": {
+      "title": "Strumenti",
+      "description": "Scopri i nostri strumenti",
+      "branch-name-generator": "Generatore di nomi di branch"
+    },
+    "about": {
+      "title": "Chi siamo",
+      "description": "Scopri di più su di noi"
+    },
+    "contact": {
+      "title": "Contatti",
+      "description": "Contattaci per ulteriori informazioni"
+    }
+  },
+  "errors": {
+    "404": {
+      "title": "Not Found",
+      "description": "The page you are looking for does not exist"
+    },
+    "504": {
+      "title": "Network Error",
+      "description": "Please, check your internet connection and try again"
+    },
+    "unknown": {
+      "title": "Unknown error",
+      "description": "Unknown error"
+    }
+  },
+  "ENUMS": {
+    "languages": {
+      "it": "Italian",
+      "en": "English"
+    }
+  }
+}

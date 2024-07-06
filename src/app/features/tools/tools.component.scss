@@ -1,0 +1,41 @@
+.tools-container {
+  display: flex;
+  height: 100vh;
+}
+
+.tools-list {
+  background-color: #f8f9fa;
+  padding: 1em;
+  border-right: 1px solid #ddd;
+}
+
+.tools-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tools-list li {
+  margin-bottom: 1em;
+}
+
+.tools-list a,
+.tools-list button {
+  display: block;
+  margin-bottom: 0.5em;
+  text-decoration: none;
+  color: #007bff;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.tools-list button:hover,
+.tools-list a:hover {
+  text-decoration: underline;
+}
+
+.tool-details {
+  flex-grow: 1;
+  padding: 1em;
+}

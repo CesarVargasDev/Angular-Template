@@ -1,0 +1,39 @@
+@import "../../../../../assets/styles/abstract/colors";
+@import "../../../../../assets/styles/abstract/mixins";
+
+.menu {
+  @include gradient;
+
+  li {
+    padding: 0 0.7rem;
+
+    a {
+      color: $white;
+      padding: 0 0.7rem;
+      font-weight: 600;
+    }
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+}
+
+.dropdown-menu {
+  background-color: $black;
+  border: 0;
+  padding: 0.5rem 0;
+  margin-top: 0.5rem;
+
+  .dropdown-item {
+    color: $gray-300;
+    padding: 0.5rem 1rem;
+    font-weight: 400;
+
+    &:hover {
+      background-color: $primary;
+      color: $white;
+    }
+  }
+}

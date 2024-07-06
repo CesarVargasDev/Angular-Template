@@ -1,0 +1,14 @@
+<form [formGroup]="form">
+  <div class="card p-2">
+    <div class="card-body text-center">
+      <h1>Genera il nome del tuo branch dalla descrizione</h1>
+    </div>
+    <div class="input-group p-3">
+      <input type="text" class="form-control" placeholder="Titolo del Task" formControlName="inputTaskTitle" />
+    </div>
+    <div class="input-group p-3">
+      <input type="text" class="form-control" placeholder="Risultato" readonly formControlName="outputTaskTitle" />
+    </div>
+    <button class="btn btn-primary ml-2" (click)="handleClipboard()">Copia</button>
+  </div>
+</form>
