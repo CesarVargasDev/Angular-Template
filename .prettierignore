@@ -1,6 +1,4 @@
 # Directories
-.yarn/
-.docker/
 **/.coverage_artifacts
 **/.coverage_cache
 **/.coverage_contracts
@@ -19,5 +17,3 @@ coverage.json
 npm-debug.log*
 package.json
 package-lock.json
-yarn-debug.log*
-yarn-error.log*

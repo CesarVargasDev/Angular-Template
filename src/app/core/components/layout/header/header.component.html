@@ -1,7 +1,13 @@
 <nav class="navbar navbar-expand-lg  menu shadow" *transloco="let t; prefix: 'components.layout.header'">
-  <div class="container">
+
+  <div class="container-fluid">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <a class="navbar-brand">
-      <img [ngSrc]="'assets/images/angular_logo.png'" alt="logo image" height="50" width="160">
+      <img [ngSrc]="'assets/images/logo/angular_logo.png'" alt="logo image" height="50" width="160">
     </a>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
@@ -25,4 +31,5 @@
     </div>
 
   </div>
+
 </nav>

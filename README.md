@@ -1,6 +1,6 @@
 # Angular Template
 
-<img src="src/assets/images/angular_logo.png" alt="Logo" />
+<img src="src/assets/images/logo/angular_logo.png" alt="Logo" />
 
 ## Author
 

@@ -1,0 +1,11 @@
+/* Setting scrollbar track color explicitly */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #91d4c9; /* Track color */
+}
+::-webkit-scrollbar-thumb {
+  background: #2f1e03; /* Handle color */
+}
